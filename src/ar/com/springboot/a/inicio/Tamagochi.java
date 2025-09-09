@@ -8,15 +8,15 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 
 public class Tamagochi {
 
 	//private ArrayList<String> estado; // String es tambien una clase -- se almacena en la memoria chip
 	private static String estado;
 	private static int nivel = 0; // numerico primitivo --- Integer es una clase
-
+	private static final String USERNAME= "root";
 	// publico o privado
 	// privado --- para usar solo internamente
 
@@ -24,12 +24,15 @@ public class Tamagochi {
 	 * atributos metodos constructor
 	 */
 
-	public Tamagochi(String string, int i) {
+	public Tamagochi(String estado, int nivel) {
 		// TODO Auto-generated constructor stub
+		this.estado = estado;
+		this.nivel = nivel;
 	}
 
-	public Tamagochi() {
+	public Tamagochi(String nombre) {
 		// TODO Auto-generated constructor stub
+		super();
 	}
 
 	public static void comer() {
