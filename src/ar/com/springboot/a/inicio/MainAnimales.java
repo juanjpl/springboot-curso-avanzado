@@ -6,6 +6,8 @@ public class MainAnimales {
 		// TODO Auto-generated method stub
 
 		Perro p = new Perro("Pipet", "Ladrido");
+		
+		
 	}
 
 }
