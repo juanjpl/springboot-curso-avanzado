@@ -2,7 +2,7 @@ package ar.com.springboot.j.springbootI.controllers;
 
 import org.springframework.web.bind.annotation.*;
 import com.example.demostration.DemostrationApplication;
-import com.example.demostration.model.User;
+import com.example.demostration.entities.User;
 
 @RestController
 @RequestMapping("/saludar")
